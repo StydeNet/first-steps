@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Laravel</title>
-</head>
-<body>
+@extends('layout')
+
+@section('content')
     <h2>Notes</h2>
     <ul>
         @foreach ($notes as $note)
@@ -12,5 +9,4 @@
         </li>
         @endforeach
     </ul>
-</body>
-</html>
+@endsection
