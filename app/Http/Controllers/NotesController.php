@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Note;
-use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -23,6 +22,10 @@ class NotesController extends Controller
 
     public function store()
     {
+        $this->validate(request(), [
+            'note' => ['required', 'max:200']
+        ]);
+
         $data = request()->all();
 
         Note::create($data);
