@@ -23,7 +23,11 @@ class NotesController extends Controller
 
     public function store()
     {
-        return 'Creating a note';
+        $data = request()->all();
+
+        Note::create($data);
+
+        return redirect()->to('notes');
     }
 
     public function show($note)
