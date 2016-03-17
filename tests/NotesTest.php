@@ -1,14 +1,12 @@
 <?php
 
-use Illuminate\Foundation\Testing\WithoutMiddleware;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 use App\Note;
 
 class NotesTest extends TestCase
 {
-    use WithoutMiddleware;
+    use DatabaseTransactions;
 
     public function test_notes_list()
     {
