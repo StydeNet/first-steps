@@ -11,7 +11,7 @@ class NotesController extends Controller
 {
     public function index()
     {
-        $notes = Note::all();
+        $notes = Note::paginate(20);
         return view('notes/list', compact('notes'));
     }
 
