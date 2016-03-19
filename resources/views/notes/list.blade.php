@@ -8,7 +8,11 @@
     <ul class="list-group">
         @foreach ($notes as $note)
         <li class="list-group-item">
-            <span class="label label-info">{{ $note->category->name }}</span> 
+            @if ($note->category)
+                <span class="label label-info">{{ $note->category->name }}</span>
+            @else
+                <span class="label label-info">Others</span>
+            @endif
             {{ $note->note }}
         </li>
         @endforeach
