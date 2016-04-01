@@ -14,18 +14,27 @@ Con este curso aprenderás sobre los conceptos más importantes del framework más 
 
 *   [3\. Cómo crear rutas en Laravel 5.*](https://styde.net/como-crear-rutas-en-laravel-5/) - 17:24
 
-*   **4\. Rutas para formularios en Laravel (método POST)**
+*   [4\. Rutas para formularios en Laravel (método POST)](https://styde.net/rutas-para-formularios-en-laravel-metodo-post/) - 10:14
 
-*   **5\. Sistema de plantillas y layout con Bootstrap 3**
+*   [5\. Sistema de plantillas y layout con Bootstrap 3](https://styde.net/sistema-de-plantillas-y-layout-con-bootstrap-3/) - 16:48
 
-*   **6\. Creación y uso de controladores**
+*   [6\. Creación y uso de controladores](https://styde.net/creacion-y-uso-de-controladores-en-laravel-5-1-2/) - 10:59
 
-*   **7\. Creación de registros**
+*   [7\. Creación de registros](https://styde.net/creacion-de-registros-con-laravel-5-1-2/) - 15:36
 
-*   **8\. Validación de datos del usuario**
+*   [8\. Validación de datos del usuario](https://styde.net/validacion-de-datos-del-usuario-con-laravel/) - 14:04
 
-*   **9\. Creación de tablas con migraciones**
+*   [9\. Creación de tablas con el sistema de migraciones](https://styde.net/creacion-de-tablas-con-el-sistema-de-migraciones-de-laravel/) - 17:20
 
+*   [10\. Configuración de bases de datos y entorno de desarrollo para Laravel](https://styde.net/configuracion-de-bases-de-datos-y-entorno-de-desarrollo-para-laravel/) - 18:55
+
+*   [11\. Paginación, y carga de registros con seeders y model factories](https://styde.net/paginacion-y-carga-de-registros-con-seeders-y-model-factories-laravel/) - 11:12
+
+*   [12\. Eloquent el ORM de Laravel](https://styde.net/eloquent-el-orm-de-laravel/) - 12:53
+
+*   [13\. Ejercicio: detalle de notas](https://styde.net/ejercicio-mostrar-los-detalles-de-un-registro-con-laravel/) - 7:22
+
+*   **14\. Solución: detalle de notas**
 <div class="text-right social-icons-tips">
 
 
