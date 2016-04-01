@@ -12,4 +12,14 @@ class Note extends Model
     {
         return $this->belongsTo(Category::class);
     }
+
+    /**
+     * Resumen limitado del contenido de la nota
+     * 
+     * @return string
+     */
+    public function getSummaryAttribute()
+    {
+        return str_limit($this->note, config('notes.summary_length_limit'));
+    }
 }

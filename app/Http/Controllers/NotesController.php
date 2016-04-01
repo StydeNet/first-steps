@@ -33,8 +33,17 @@ class NotesController extends Controller
         return redirect()->to('notes');
     }
 
-    public function show($note)
+    /**
+     * Despliegue del contenido completo de la nota
+     * 
+     * @param $noteId
+     *
+     * @return mixed
+     */
+    public function show($noteId)
     {
-        dd($note);
+        $note = Note::findOrFail($noteId);
+        
+        return view('notes.show', compact('note'));
     }
 }
