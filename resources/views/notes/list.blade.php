@@ -13,7 +13,7 @@
             @else
                 <span class="label label-info">Others</span>
             @endif
-            {{ substr($note->note, 0, 100) }}...
+            {{ str_limit($note->note, 100) }}
             <a href="{{ url('notes/'.$note->id) }}" class="small">View note</a>
         </li>
         @endforeach
