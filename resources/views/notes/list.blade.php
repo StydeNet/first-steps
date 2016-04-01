@@ -13,8 +13,12 @@
             @else
                 <span class="label label-info">Others</span>
             @endif
-            {{ substr($note->note, 0, 100) }}...
-            <a href="{{ url('notes/'.$note->id) }}" class="small">View note</a>
+            {{ $note->note }}
+            <div class="text-right">
+                <a href="{{ route('notes.show', $note) }}">
+                    View note
+                </a>
+            </div>
         </li>
         @endforeach
     </ul>
