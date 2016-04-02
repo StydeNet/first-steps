@@ -14,6 +14,11 @@
                 <span class="label label-info">Others</span>
             @endif
             {{ $note->note }}
+            <div class="text-right">
+                <a href="{{ route('notes.show', $note) }}">
+                    View note
+                </a>
+            </div>
         </li>
         @endforeach
     </ul>

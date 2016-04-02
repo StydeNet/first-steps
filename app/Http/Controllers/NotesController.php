@@ -6,35 +6,41 @@ use App\Note;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Category;
 
 class NotesController extends Controller
 {
     public function index()
     {
         $notes = Note::paginate(20);
-        return view('notes/list', compact('notes'));
+        return view('notes.list')->with(compact('notes'));
     }
 
     public function create()
     {
-        return view('notes/create');
+        $categories = Category::all()->pluck('name','id')->toArray();
+        
+        return view('notes.create')->with(compact('categories'));
     }
 
-    public function store()
+    public function store(Request $request)
     {
-        $this->validate(request(), [
-            'note' => ['required', 'max:200']
+        $this->validate($request, [
+            'note' => 'required|max:200'
         ]);
 
-        $data = request()->all();
+        $data = $request->all();
 
         Note::create($data);
-
+        
         return redirect()->to('notes');
     }
 
-    public function show($note)
+    public function show($id)
     {
-        dd($note);
+        $note = Note::findOrFail($id);
+        
+        return view('notes.show')->with(compact('note'));
     }
 }

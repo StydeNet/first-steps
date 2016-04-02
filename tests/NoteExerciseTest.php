@@ -7,6 +7,7 @@ class NoteExerciseTest extends TestCase
 {
     use DatabaseTransactions;
 
+
     public function test_notes_summary_and_notes_details()
     {
         $text = 'Begin of the note. Dicta laborum animi nostrum qui sed dolorum. Enim magni odit est dignissimos ut et laboriosam. Facere laboriosam et dolorem et laborum blanditiis. Corrupti fugit et in eos omnis voluptas.';
@@ -17,10 +18,11 @@ class NoteExerciseTest extends TestCase
         $this->visit('notes')
             ->see('Begin of the note')
             ->seeInElement('.label', 'Others')
-            ->dontSee('End of the note')
+            ->see('End of the note')
             ->seeLink('View note')
             ->click('View note')
-            ->see($text);
+            ->see($text)
+            ->seeLink('View all notes', 'notes');
 
     }
 }

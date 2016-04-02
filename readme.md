@@ -1,27 +1,53 @@
-## Laravel PHP Framework
+### [Styde](https://styde.net/)
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Styde es una nueva comunidad de desarrollo web en español. Con nosotros podrás aprender Laravel, PHP y otras tecnologías, desde tutoriales básicos gratuitos hasta cursos avanzados a bajo costo, de la mano de profesionales con años de experiencia.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+# Curso Primeros Pasos con Laravel 5.*
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+En el 2015, en duilio.me, creamos un [curso básico de Laravel, en su versión 5.0](https://styde.net/laravel-5/). Un año después, en este 2016, estamos recreando nuevamente el **curso básico gratuito**, esta vez utilizando la primera versión **LTS de Laravel (5.1)** y enfocándonos en los fundamentos del framework, que te permitirán comenzar a desarrollar con todas las versiones de Laravel 5 (actualmente la 5.1 LTS y la versión 5.2).
 
-## Official Documentation
+Con este curso aprenderás sobre los conceptos más importantes del framework más popular de PHP, tales como: rutas, migraciones, vistas, controladores, pruebas con PHPUnit, entre otros. Conocimientos con los cuales podrás desarrollar aplicaciones de PHP modernas de una manera rápida y profesional.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+*   [1\. Instalación de Composer y Laravel 5.1](https://styde.net/instalacion-de-composer-y-laravel-5-1/) - 9:30
 
-## Contributing
+*   [2\. Flujo de trabajo en el desarrollo con Laravel](https://styde.net/flujo-de-trabajo-en-el-desarrollo-de-laravel/) - 19:23
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+*   [3\. Cómo crear rutas en Laravel 5.*](https://styde.net/como-crear-rutas-en-laravel-5/) - 17:24
 
-## Security Vulnerabilities
+*   [4\. Rutas para formularios en Laravel (método POST)](https://styde.net/rutas-para-formularios-en-laravel-metodo-post/) - 10:14
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+*   [5\. Sistema de plantillas y layout con Bootstrap 3](https://styde.net/sistema-de-plantillas-y-layout-con-bootstrap-3/) - 16:48
 
-### License
+*   [6\. Creación y uso de controladores](https://styde.net/creacion-y-uso-de-controladores-en-laravel-5-1-2/) - 10:59
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+*   [7\. Creación de registros](https://styde.net/creacion-de-registros-con-laravel-5-1-2/) - 15:36
+
+*   [8\. Validación de datos del usuario](https://styde.net/validacion-de-datos-del-usuario-con-laravel/) - 14:04
+
+*   [9\. Creación de tablas con el sistema de migraciones](https://styde.net/creacion-de-tablas-con-el-sistema-de-migraciones-de-laravel/) - 17:20
+
+*   [10\. Configuración de bases de datos y entorno de desarrollo para Laravel](https://styde.net/configuracion-de-bases-de-datos-y-entorno-de-desarrollo-para-laravel/) - 18:55
+
+*   [11\. Paginación, y carga de registros con seeders y model factories](https://styde.net/paginacion-y-carga-de-registros-con-seeders-y-model-factories-laravel/) - 11:12
+
+*   [12\. Eloquent el ORM de Laravel](https://styde.net/eloquent-el-orm-de-laravel/) - 12:53
+
+*   [13\. Ejercicio: detalle de notas](https://styde.net/ejercicio-mostrar-los-detalles-de-un-registro-con-laravel/) - 7:22
+
+*   **14\. Solución: detalle de notas**
+<div class="text-right social-icons-tips">
+
+
+#### Otros cursos
+
+**Laravel desde cero**
+-    [                        Curso de Laravel 5.1                    ](https://styde.net/curso-introductorio-laravel-5-1/)
+-  [                        Crea una aplicación con Laravel 5                    ](https://styde.net/curso-crea-aplicaciones-con-laravel-5/)
+-   [                        Curso básico de Eloquent ORM                    ](https://styde.net/curso-basico-de-eloquent-orm-con-laravel-5-1/)
+
+
+**Laravel y PHP avanzado**
+- [                        Curso de administración de servidores para PHP y Laravel                    ](https://styde.net/curso-configuracion-administracion-de-servidores-php-laravel/)
+-   [                        Curso avanzado de Eloquent ORM                    ](https://styde.net/curso-avanzado-de-eloquent-orm/)
+- [                        Crea componentes para PHP                    ](https://styde.net/curso-crea-componentes-para-php-y-laravel/)
+-   [                        Interfaces dinámicas con Laravel y jQuery                    ](https://styde.net/curso-de-interfaces-dinamicas-con-laravel-y-jquery/)
