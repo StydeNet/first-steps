@@ -11,7 +11,7 @@ class NotesController extends Controller
 {
     public function index()
     {
-        $notes = Note::paginate(20);
+        $notes = Note::orderBy('id', 'DESC')->paginate(20);
         return view('notes/list', compact('notes'));
     }
 
@@ -35,6 +35,8 @@ class NotesController extends Controller
 
     public function show($note)
     {
-        dd($note);
+        $note = Note::findOrFail($note);
+
+        return view('notes/details')->with('note', $note);
     }
 }
