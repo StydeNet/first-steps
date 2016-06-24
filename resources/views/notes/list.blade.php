@@ -7,14 +7,7 @@
     </p>
     <ul class="list-group">
         @foreach ($notes as $note)
-        <li class="list-group-item">
-            @if ($note->category)
-                <span class="label label-info">{{ $note->category->name }}</span>
-            @else
-                <span class="label label-info">Others</span>
-            @endif
-            {{ $note->note }}
-        </li>
+            @include('notes.partials.item-list', compact('note'))
         @endforeach
     </ul>
     {!! $notes->render() !!}
